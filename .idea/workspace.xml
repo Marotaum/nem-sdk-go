@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37d98230-7882-4403-b6e5-16e023fbf83c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/mosaicchangesupply.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/base.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/account.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/apostille.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/apostille.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/chain.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/chain.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/market.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/market.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/mosaic.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/mosaic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/namespace.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/namespace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/send.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/send.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/requests/supernodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/com/requests/supernodes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto/cryptohelpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/cryptohelpers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/account.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/apostille/audit.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/apostille/audit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/apostille/create.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/apostille/create.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/createmosaic.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/createmosaic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/createnamespace.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/createnamespace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/mosaictransfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/mosaictransfer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/requests.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/requests.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/transfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/transfer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/verifysignature.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/verifysignature.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/crypto/curve25519/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/external/crypto/curve25519/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/crypto/ed25519/ed25519.go" beforeDir="false" afterPath="$PROJECT_DIR$/external/crypto/ed25519/ed25519.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/crypto/ed25519/ed25519_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/external/crypto/ed25519/ed25519_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/crypto/sha3/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/external/crypto/sha3/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/address.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/fees.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/fees.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/network.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/network.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/objects/miscellaneous.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/objects/miscellaneous.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/objects/mosaic.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/objects/mosaic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/objects/transactions.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/objects/transactions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactions/apostille.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/apostille.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactions/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/message.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactions/mosaicdefinitiondransaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/mosaicdefinitiondransaction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactions/multisigwrapper.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/multisigwrapper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactions/namespacetrovisiontransaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/namespacetrovisiontransaction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactions/send.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/send.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactions/transfertransaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/transfertransaction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/transactiontypes.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactiontypes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/format.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helpers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/serialization.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/serialization.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,54 +14,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.3098075">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/requests.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="179" column="14" selection-start-line="179" selection-start-column="14" selection-end-line="179" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/transfer.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/verifysignature.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#14#112#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/apostille/audit.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/apostille/create.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/com/requests/account.go">
               <provider selected="true" editor-type-id="text-editor">
@@ -154,11 +62,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/com/requests/send.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+                <state relative-caret-position="374">
+                  <caret line="22" selection-start-line="22" selection-end-line="22" />
                   <folding>
                     <element signature="e#18#49#0" expanded="true" />
                   </folding>
@@ -166,10 +74,68 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com/requests/supernodes.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="436">
+                  <caret line="168" column="47" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#18#146#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com/requests/transaction.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#18#95#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/utils/serialization.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="680">
+                  <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
+                  <folding>
+                    <element signature="e#15#163#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="-773" />
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="448">
+                    <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.7304117">
+        <splitter split-orientation="horizontal" split-proportion="0.5498008">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
@@ -184,8 +150,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/examples/mosaicchangesupply.go">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="493">
-                      <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+                    <state relative-caret-position="323">
+                      <caret line="19" selection-start-line="19" selection-end-line="19" />
                       <folding>
                         <element signature="e#14#260#0" expanded="true" />
                       </folding>
@@ -197,7 +163,7 @@
                 <entry file="file://$PROJECT_DIR$/examples/createnamespace.go">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="272">
-                      <caret line="24" column="47" lean-forward="true" selection-end-line="37" />
+                      <caret line="24" column="47" selection-end-line="37" />
                     </state>
                   </provider>
                 </entry>
@@ -239,8 +205,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="339">
-                      <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+                    <state relative-caret-position="-193">
+                      <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
                     </state>
                   </provider>
                 </entry>
@@ -313,6 +279,7 @@
         <option value="$PROJECT_DIR$/examples/apostille/audit.go" />
         <option value="$PROJECT_DIR$/examples/apostille/create.go" />
         <option value="$PROJECT_DIR$/com/requests/send.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -448,35 +415,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com/requests/supernodes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/requests/transaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#18#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto/crypto.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto/cryptohelpers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#16#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/external/crypto/curve25519/curve25519.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -651,23 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/serialization.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="327" column="44" selection-start-line="327" selection-start-column="44" selection-end-line="327" selection-end-column="44" />
-          <folding>
-            <element signature="e#15#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/format.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -738,17 +659,7 @@
     <entry file="file://$PROJECT_DIR$/examples/createnamespace.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="24" column="47" lean-forward="true" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mosaicchangesupply.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#14#260#0" expanded="true" />
-          </folding>
+          <caret line="24" column="47" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -768,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/transfer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -839,11 +750,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/requests/send.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#18#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/requests/supernodes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="168" column="47" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="47" />
+          <folding>
+            <element signature="e#18#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/mosaicchangesupply.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#14#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/requests/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <element signature="e#18#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/serialization.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
+          <folding>
+            <element signature="e#15#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-773" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="448">
+            <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
