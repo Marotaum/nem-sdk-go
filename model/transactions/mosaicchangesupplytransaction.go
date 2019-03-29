@@ -57,11 +57,6 @@ func constructMSC(msc MosaicSupplyChange) *base.MosaicSupplyChangeTransaction {
 	data := CommonPart(model.MosaicSupply, version, timeStamp, msc.Due, msc.SenderPublicKey)
 	fee := model.NamespaceAndMosaicCommon
 
-	mosaidID := base.MosaicID{
-		NamespaceID: msc.NamespaceID,
-		Name:        msc.MosaicName,
-	}
-
 	custom := base.MosaicSupplyChangeTransaction{
 		TimeStamp:       data.TimeStamp,
 		Type:            data.Type,
@@ -72,7 +67,10 @@ func constructMSC(msc MosaicSupplyChange) *base.MosaicSupplyChangeTransaction {
 
 		SupplyType:      msc.SupplyType,
 		Delta:           msc.Delta,
-		MosaicID:        mosaidID,
+		MosaicID:        base.MosaicID {
+			NamespaceID: msc.NamespaceID,
+			Name:        msc.MosaicName,
+		},
 	}
 	return &custom
 }

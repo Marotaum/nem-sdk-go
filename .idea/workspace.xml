@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37d98230-7882-4403-b6e5-16e023fbf83c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,8 +205,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-193">
-                      <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+                    <state relative-caret-position="436">
+                      <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
                     </state>
                   </provider>
                 </entry>
@@ -268,7 +268,6 @@
         <option value="$PROJECT_DIR$/examples/createmosaic.go" />
         <option value="$PROJECT_DIR$/model/objects/transactions.go" />
         <option value="$PROJECT_DIR$/model/transactiontypes.go" />
-        <option value="$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go" />
         <option value="$PROJECT_DIR$/base/base.go" />
         <option value="$PROJECT_DIR$/examples/mosaicchangesupply.go" />
         <option value="$PROJECT_DIR$/utils/serialization.go" />
@@ -280,6 +279,7 @@
         <option value="$PROJECT_DIR$/examples/apostille/create.go" />
         <option value="$PROJECT_DIR$/com/requests/send.go" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go" />
       </list>
     </option>
   </component>
@@ -778,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/requests/transaction.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -820,6 +813,13 @@
             <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/transactions/mosaicchangesupplytransaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
         </state>
       </provider>
     </entry>
