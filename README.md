@@ -43,6 +43,7 @@ NEM Developer Kit for Golang based on https://github.com/QuantumMechanics/NEM-sd
   - Mosaic transactions.
   - Create mosaic.
   - Create namespace.
+  - Change mosaic supply.
   - Apostille create.
   - Multi-signature transactions.
   ### Other functions.
