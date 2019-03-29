@@ -33,6 +33,26 @@ type MosaicDefinition struct {
 	Levy        Levy         `json:"levy,omitempty"`
 }
 
+type MosaicSupplyChangeTransaction struct {
+	TimeStamp        int64            `json:"timeStamp"`
+	Fee              float64          `json:"fee"`
+	Type             int              `json:"type"`
+	Deadline         int64            `json:"deadline"`
+	Version          int              `json:"version"`
+	Signer           string           `json:"signer"`
+	Delta            float64          `json:"delta"`
+	SupplyType       int              `json:"supplyType"`
+	MosaicID         MosaicID         `json:"mosaicId"`
+}
+
+type MosaicSupply struct {
+	Mosaic          string `json:"mosaic"`
+	SupplyType      int    `json:"supplyType"`
+	Delta           int    `json:"delta"`
+	IsMultisig      bool   `json:"isMultisig"`
+	MultisigAccount string `json:"multisigAccount"`
+}
+
 type MosaicID struct {
 	NamespaceID string `json:"namespaceId,omitempty"`
 	Name        string `json:"name,omitempty"`
@@ -114,13 +134,7 @@ type SignatureT struct {
 	OtherAccount string
 }
 
-type Supply struct {
-	Mosaic          string `json:"mosaic"`
-	SupplyType      int    `json:"supplyType"`
-	Delta           int    `json:"delta"`
-	IsMultisig      bool   `json:"isMultisig"`
-	MultisigAccount string `json:"multisigAccount"`
-}
+
 
 type MultisigAggregateModific struct {
 	Modifications   []interface{} `json:"modifications"`
@@ -370,6 +384,48 @@ func (t *Transaction) GetTx() Transaction {
 		Amount:    0,
 		Fee:       t.Fee,
 		Recipient: t.Recipient,
+		Type:      t.Type,
+		Deadline:  t.Deadline,
+		Version:   t.Version,
+		Signer:    t.Signer,
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+func (t *MosaicSupplyChangeTransaction) GetType() int {
+	return t.Type
+}
+
+func (t *MosaicSupplyChangeTransaction) GetCommon() CommonTransaction {
+	return CommonTransaction{
+		Type:      t.Type,
+		Version:   t.Version,
+		TimeStamp: t.TimeStamp,
+		Deadline:  t.Deadline,
+		Signer:    t.Signer,
+		Fee:       t.Fee,
+	}
+}
+
+func (t *MosaicSupplyChangeTransaction) GetTx() Transaction {
+	return Transaction{
+		TimeStamp: t.TimeStamp,
+		Amount:    0,
+		Fee:       t.Fee,
+		Recipient: "",
 		Type:      t.Type,
 		Deadline:  t.Deadline,
 		Version:   t.Version,

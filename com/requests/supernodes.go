@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/isarq/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/model"
 	"io/ioutil"
 	"net/http"
 	"strings"

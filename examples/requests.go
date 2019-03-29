@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/isarq/nem-sdk-go/com/requests"
-	"github.com/isarq/nem-sdk-go/model"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/com/requests"
+	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/utils"
 
 	"fmt"
-	"github.com/isarq/nem-sdk-go/model/objects"
+	"github.com/Marotaum/nem-sdk-go/model/objects"
 )
 
 func main() {

@@ -1,10 +1,10 @@
 package transactions
 
 import (
-	"github.com/isarq/nem-sdk-go/base"
-	"github.com/isarq/nem-sdk-go/extras"
-	"github.com/isarq/nem-sdk-go/model"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/base"
+	"github.com/Marotaum/nem-sdk-go/extras"
+	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/utils"
 	"github.com/pkg/errors"
 	"strings"
 )
@@ -88,9 +88,7 @@ func (r MosaicDefinition) Prepare(common Common, network int) *base.MosaicDefini
 		msc.senderPublicKey = kp.PublicString()
 	}
 	msc.rentalFeeSink = strings.ToUpper(strings.Replace(model.Mosaic[network], "-", "", -1))
-	//fmt.Println("CreationFeeSink: ", msc.rentalFeeSink)
 	msc.rentalFee = model.MosaicDefinitionTransaction
-	//fmt.Printf("RentalFee: %v", msc.rentalFee)
 	msc.namespaceParent = r.NamespaceParent.Fqn
 	msc.mosaicName = r.MosaicName
 	msc.mosaicDescription = r.MosaicDescription

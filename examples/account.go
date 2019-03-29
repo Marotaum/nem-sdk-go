@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/isarq/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/model"
 )
 
 func main() {
@@ -15,8 +15,6 @@ func main() {
 	address := model.ToAddress(publicKey, model.Data.Testnet.ID)
 
 	fmt.Println("PrivateKey:\t", privateKey)
-
 	fmt.Println("PublicKey:\t", publicKey)
-
 	fmt.Print("Address:\t", address)
 }

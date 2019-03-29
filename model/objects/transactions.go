@@ -1,8 +1,8 @@
 package objects
 
 import (
-	"github.com/isarq/nem-sdk-go/base"
-	"github.com/isarq/nem-sdk-go/model/transactions"
+	"github.com/Marotaum/nem-sdk-go/base"
+	"github.com/Marotaum/nem-sdk-go/model/transactions"
 	"strings"
 )
 
@@ -48,10 +48,10 @@ func Mosaicdefinition() (m *transactions.MosaicDefinition) {
 }
 
 // An un-prepared mosaic supply change transaction object
-// return A - Supply struct
-func MosaicSupplyChange() base.Supply {
-	return base.Supply{
-		Mosaic:          "",
+// return A - MosaicSupply struct
+func MosaicSupplyChange() transactions.MosaicSupplyChange {
+	return transactions.MosaicSupplyChange{
+		MosaicName:      "",
 		SupplyType:      1,
 		Delta:           0,
 		IsMultisig:      false,

@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/isarq/nem-sdk-go/base"
-	"github.com/isarq/nem-sdk-go/extras"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/base"
+	"github.com/Marotaum/nem-sdk-go/extras"
+	"github.com/Marotaum/nem-sdk-go/utils"
 
 	"errors"
 	"math"

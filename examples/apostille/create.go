@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/isarq/nem-sdk-go/com/requests"
-	"github.com/isarq/nem-sdk-go/model"
-	"github.com/isarq/nem-sdk-go/model/objects"
-	"github.com/isarq/nem-sdk-go/model/transactions"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/com/requests"
+	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/model/objects"
+	"github.com/Marotaum/nem-sdk-go/model/transactions"
+	"github.com/Marotaum/nem-sdk-go/utils"
 	"strings"
 )
 
@@ -25,12 +25,6 @@ func main() {
 
 	// Simulate the file content
 	fileContent := []byte("Apostille is awesome !")
-
-	// Just pass the file name
-	//fileContent, err := ioutil.ReadFile("file.txt")
-	//if err != nil {
-	//   fmt.Print(err)
-	//}
 
 	// Create the apostille
 	apostille := transactions.Create(common, "file.txt", fileContent, "Test Apostille",

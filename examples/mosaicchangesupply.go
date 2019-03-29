@@ -16,19 +16,19 @@ func main() {
 	client := requests.NewClient(endpoint)
 
 	// Create a common object holding key
-	common := objects.GetCommon("", "056862b3dffbfd67a78172cf04c6a917325f2325f40cd48eea736f40b8a96d58", false)
+	common := objects.GetCommon("", "265087519502bd6f6c93f74b189ecdea18da9f58ba9d83a425821e714ea2aeea", false)
 
-	// Create an un-prepared transfer transaction
-	tx := objects.Transfer("TD2YSVI5L2OKSLAPJBWN7XXFBKYCHVXMXY42GS64", 1, "Hello")
+	msc := objects.MosaicSupplyChange()
+	msc.Delta = 1
+	msc.IsMultisig = false
+	msc.NamespaceID = "xem"
+	msc.MosaicName = "token"
+	msc.MultisigAccount = ""
+	msc.SupplyType = 2
+	msc.Network = model.Data.Testnet.ID
 
-	//// Enable Multisig
-	//tx.IsMultisig = true
-	//
-	// Publickey of the multifirm account (only if IsMultisig is true).
-	//tx.MultisigAccount = "31efa466d2c0aee147397ec3bbe16354fd6fc10eb6710014c8d9a8924ad9b152"
-
-	// Prepare the transfer transaction
-	transactionEntity := tx.Prepare(common, model.Data.Testnet.ID)
+	// Prepare the change transaction
+	transactionEntity := msc.Prepare(common, model.Data.Testnet.ID)
 
 	res, err := transactions.Send(common, transactionEntity, *client)
 	if err != nil {

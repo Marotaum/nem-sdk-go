@@ -3,11 +3,11 @@ package transactions
 import (
 	"errors"
 	"fmt"
-	"github.com/isarq/nem-sdk-go/base"
-	"github.com/isarq/nem-sdk-go/com/requests"
-	"github.com/isarq/nem-sdk-go/extras"
-	"github.com/isarq/nem-sdk-go/model"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/base"
+	"github.com/Marotaum/nem-sdk-go/com/requests"
+	"github.com/Marotaum/nem-sdk-go/extras"
+	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/utils"
 	"math"
 	"strings"
 )
@@ -76,11 +76,8 @@ func (r *Transfer) Prepare(common Common, network int) base.TxDict {
 	}
 
 	msc.recipientCompressedKey = strings.ToUpper(strings.Replace(r.Recipient, "-", "", -1))
-
 	msc.amount = math.Round(r.Amount * 1000000)
-
 	msc.message = MsgPrepare(common, r)
-
 	msc.msgFee = model.CalculateMessage(msc.message, false)
 
 	if network == model.Data.Testnet.ID {
@@ -128,11 +125,8 @@ func (r *Transfer) PrepareMosaic(common Common, mosaicDefinitionMetaDataPair map
 	}
 
 	msc.recipientCompressedKey = strings.ToUpper(strings.Replace(r.Recipient, "-", "", -1))
-
 	msc.amount = math.Round(r.Amount * 1000000)
-
 	msc.message = MsgPrepare(common, r)
-
 	msc.msgFee = model.CalculateMessage(msc.message, false)
 
 	//Gets the current supply of a mosaic
@@ -153,9 +147,6 @@ func (r *Transfer) PrepareMosaic(common Common, mosaicDefinitionMetaDataPair map
 		msc.due = 24 * 60
 	}
 	msc.mosaics = r.Mosaics
-
-	//msc.mosaicsFee = model.Ca
-
 	msc.network = network
 
 	rt := constructtx(msc)

@@ -1,7 +1,7 @@
 package objects
 
 import (
-	"github.com/isarq/nem-sdk-go/base"
+	"github.com/Marotaum/nem-sdk-go/base"
 )
 
 // A mosaic attachment object

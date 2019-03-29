@@ -2,8 +2,8 @@ package objects
 
 import (
 	"encoding/hex"
-	. "github.com/isarq/nem-sdk-go/base"
-	"github.com/isarq/nem-sdk-go/model/transactions"
+	. "github.com/Marotaum/nem-sdk-go/base"
+	"github.com/Marotaum/nem-sdk-go/model/transactions"
 )
 
 // An endpoint object

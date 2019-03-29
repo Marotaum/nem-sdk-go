@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/isarq/nem-sdk-go/model"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/utils"
 )
 
 func main() {

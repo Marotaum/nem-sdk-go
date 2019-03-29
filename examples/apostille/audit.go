@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/isarq/nem-sdk-go/com/requests"
-	"github.com/isarq/nem-sdk-go/model"
-	"github.com/isarq/nem-sdk-go/model/objects"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/com/requests"
+	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/model/objects"
+	"github.com/Marotaum/nem-sdk-go/utils"
 
 	"fmt"
-	"github.com/isarq/nem-sdk-go/model/transactions"
+	"github.com/Marotaum/nem-sdk-go/model/transactions"
 )
 
 func main() {
@@ -17,12 +17,6 @@ func main() {
 
 	// Simulate the file content
 	fileContent := []byte("Apostille is awesome !")
-
-	// Just pass the file name
-	//fileContent, err := ioutil.ReadFile("file.txt")
-	//if err != nil {
-	//	fmt.Print(err)
-	//}
 
 	// Transaction hash of the Apostille
 	txHash := "3369f0f3b60d40f8083102409cb53a47856e078907c3bca1c7220ac0266f9722"

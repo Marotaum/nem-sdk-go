@@ -22,5 +22,4 @@ const ProvisionNamespace = 0x2001 // 8193
 const Mosaicdefinition = 0x4001 // 16385
 
 // The mosaic supply change transaction type
-
 const MosaicSupply = 0x4002 // 16386

@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/isarq/nem-sdk-go/com/requests"
-	"github.com/isarq/nem-sdk-go/model"
-	"github.com/isarq/nem-sdk-go/model/objects"
-	"github.com/isarq/nem-sdk-go/utils"
+	"github.com/Marotaum/nem-sdk-go/com/requests"
+	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/Marotaum/nem-sdk-go/model/objects"
+	"github.com/Marotaum/nem-sdk-go/utils"
 
 	"fmt"
-	"github.com/isarq/nem-sdk-go/base"
-	"github.com/isarq/nem-sdk-go/model/transactions"
+	"github.com/Marotaum/nem-sdk-go/base"
+	"github.com/Marotaum/nem-sdk-go/model/transactions"
 )
 
 func main() {
@@ -22,17 +22,11 @@ func main() {
 	// Get a MosaicDefinitionCreationTransaction struct
 	tx := objects.Mosaicdefinition()
 
-	// Enable Multisig
-	//tx.IsMultisig = false
-
-	// Publickey of the multifirm account (only if IsMultisig is true).
-	//tx.MultisigAccount = "00244b414eefef48a34de44fbdf613aeb5925e2d652a101924c43c7f91f60e0e"
-
 	// The MosaicName which is concatenated to the parent with a '.' as separator.
 	tx.MosaicName = "nem-sdk-go"
 
 	// The parent namespace.
-	tx.NamespaceParent.Fqn = "isarq"
+	tx.NamespaceParent.Fqn = "marotaum"
 
 	tx.MosaicDescription = "My mosaic test from sdk Golang"
 
