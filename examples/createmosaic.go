@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/Marotaum/nem-sdk-go/com/requests"
-	"github.com/Marotaum/nem-sdk-go/model"
-	"github.com/Marotaum/nem-sdk-go/model/objects"
-	"github.com/Marotaum/nem-sdk-go/utils"
+	"github.com/ildomm/nem-sdk-go/com/requests"
+	"github.com/ildomm/nem-sdk-go/model"
+	"github.com/ildomm/nem-sdk-go/model/objects"
+	"github.com/ildomm/nem-sdk-go/utils"
 
 	"fmt"
-	"github.com/Marotaum/nem-sdk-go/base"
-	"github.com/Marotaum/nem-sdk-go/model/transactions"
+	"github.com/ildomm/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/model/transactions"
 )
 
 func main() {

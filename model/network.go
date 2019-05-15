@@ -3,7 +3,7 @@ package model
 import (
 	"errors"
 	"fmt"
-	"github.com/Marotaum/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/base"
 )
 
 // Supported predefined chains.

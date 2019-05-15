@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/ildomm/nem-sdk-go/model"
 )
 
 func main() {

@@ -1,9 +1,9 @@
 package transactions
 
 import (
-	"github.com/Marotaum/nem-sdk-go/base"
-	"github.com/Marotaum/nem-sdk-go/model"
-	"github.com/Marotaum/nem-sdk-go/utils"
+	"github.com/ildomm/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/model"
+	"github.com/ildomm/nem-sdk-go/utils"
 )
 
 // Wrap a transaction in a multisignature transaction

@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"github.com/Marotaum/nem-sdk-go/base"
-	"github.com/Marotaum/nem-sdk-go/extras"
+	"github.com/ildomm/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/extras"
 	"math"
 	"sort"
 )

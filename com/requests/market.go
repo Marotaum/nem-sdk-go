@@ -3,7 +3,7 @@ package requests
 import (
 	"encoding/json"
 	"errors"
-	"github.com/Marotaum/nem-sdk-go/model"
+	"github.com/ildomm/nem-sdk-go/model"
 	"io/ioutil"
 	"net/http"
 	"strings"

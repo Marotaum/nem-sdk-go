@@ -3,7 +3,7 @@ package crypto
 import (
 	"errors"
 	nacl "github.com/ereyes01/cryptohelper"
-	"github.com/Marotaum/nem-sdk-go/utils"
+	"github.com/ildomm/nem-sdk-go/utils"
 )
 
 // Encode a message
@@ -27,8 +27,8 @@ func Encode(senderPriv, recipientPub, msg string) (string, error) {
 	}
 	// Processing
 
-	iv, _ := nacl.RandomKey(16)
-	salt, _ := nacl.RandomKey(32)
+	iv, _ := nacl.RandomKey()
+	salt, _ := nacl.RandomKey()
 	encoded, err := encode(senderPriv, recipientPub, msg, iv, salt)
 	if err != nil {
 		return "", err

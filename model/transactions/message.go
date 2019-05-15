@@ -1,8 +1,8 @@
 package transactions
 
 import (
-	"github.com/Marotaum/nem-sdk-go/base"
-	"github.com/Marotaum/nem-sdk-go/utils"
+	"github.com/ildomm/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/utils"
 )
 
 // Prepare a message struct

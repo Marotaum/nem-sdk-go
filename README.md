@@ -46,7 +46,7 @@ NEM Developer Kit for Golang based on https://github.com/QuantumMechanics/NEM-sd
   - Change mosaic supply.
   - Apostille create.
   - Multi-signature transactions.
-  ### Other functions.
+### Other functions.
  - Create private keys.
  - Create key pairs.
  - Extract public key from key pair.
@@ -62,7 +62,7 @@ NEM Developer Kit for Golang based on https://github.com/QuantumMechanics/NEM-sd
 ### Installation
 
 ```sh
-$ go get -u github.com/Marotaum/nem-sdk-go
+$ go get -u github.com/ildomm/nem-sdk-go
 ```
 
 ### Development

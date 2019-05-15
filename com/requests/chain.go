@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/Marotaum/nem-sdk-go/base"
-	"github.com/Marotaum/nem-sdk-go/utils"
+	. "github.com/ildomm/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/utils"
 )
 
 // BlockHeight contains a chain height

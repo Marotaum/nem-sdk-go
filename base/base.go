@@ -134,8 +134,6 @@ type SignatureT struct {
 	OtherAccount string
 }
 
-
-
 type MultisigAggregateModific struct {
 	Modifications   []interface{} `json:"modifications"`
 	RelativeChange  interface{}   `json:"relativeChange"`
@@ -229,9 +227,6 @@ type Tx interface {
 
 type TxDict interface {
 	GetCommon() CommonTransaction
-	//GetMosaic() MosaicDefinition
-	//GetMosaicId() MosaicID
-	//GetMosaicTx() *MosaicDefinitionCreationTransaction
 }
 
 func (t *MosaicDefinitionCreationTransaction) GetType() int {
@@ -390,20 +385,6 @@ func (t *Transaction) GetTx() Transaction {
 		Signer:    t.Signer,
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 func (t *MosaicSupplyChangeTransaction) GetType() int {
 	return t.Type

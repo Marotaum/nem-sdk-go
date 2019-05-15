@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/Marotaum/nem-sdk-go/base"
-	"github.com/Marotaum/nem-sdk-go/extras"
+	"github.com/ildomm/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/extras"
 	"log"
 	"regexp"
 	"strconv"

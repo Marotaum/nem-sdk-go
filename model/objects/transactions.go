@@ -1,8 +1,8 @@
 package objects
 
 import (
-	"github.com/Marotaum/nem-sdk-go/base"
-	"github.com/Marotaum/nem-sdk-go/model/transactions"
+	"github.com/ildomm/nem-sdk-go/base"
+	"github.com/ildomm/nem-sdk-go/model/transactions"
 	"strings"
 )
 

@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/Marotaum/nem-sdk-go/com/requests"
-	"github.com/Marotaum/nem-sdk-go/model"
-	"github.com/Marotaum/nem-sdk-go/model/objects"
-	"github.com/Marotaum/nem-sdk-go/model/transactions"
-	"github.com/Marotaum/nem-sdk-go/utils"
+	"github.com/ildomm/nem-sdk-go/com/requests"
+	"github.com/ildomm/nem-sdk-go/model"
+	"github.com/ildomm/nem-sdk-go/model/objects"
+	"github.com/ildomm/nem-sdk-go/model/transactions"
+	"github.com/ildomm/nem-sdk-go/utils"
 	"strings"
 )
 
