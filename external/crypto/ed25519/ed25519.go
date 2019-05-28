@@ -17,8 +17,8 @@ import (
 	"crypto"
 	cryptorand "crypto/rand"
 	"errors"
-	"github.com/Marotaum/nem-sdk-go/external/crypto/ed25519/internal/edwards25519"
-	"github.com/Marotaum/nem-sdk-go/external/crypto/sha3"
+	"github.com/ildomm/nem-sdk-go/external/crypto/ed25519/internal/edwards25519"
+	"github.com/ildomm/nem-sdk-go/external/crypto/sha3"
 	"io"
 	"strconv"
 )

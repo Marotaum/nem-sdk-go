@@ -26,7 +26,7 @@ func main() {
 	tx.MosaicName = "nem-sdk-go"
 
 	// The parent namespace.
-	tx.NamespaceParent.Fqn = "marotaum"
+	tx.NamespaceParent.Fqn = "ildomm"
 
 	tx.MosaicDescription = "My mosaic test from sdk Golang"
 

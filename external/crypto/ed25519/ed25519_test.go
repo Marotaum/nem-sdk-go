@@ -16,7 +16,7 @@ import (
 	"testing"
 
 	"fmt"
-	"github.com/Marotaum/nem-sdk-go/external/crypto/ed25519/internal/edwards25519"
+	"github.com/ildomm/nem-sdk-go/external/crypto/ed25519/internal/edwards25519"
 )
 
 type zeroReader struct{}
